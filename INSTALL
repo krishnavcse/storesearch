@@ -1,0 +1,10 @@
+Commands to install prerequisites in ubuntu 14.04 and higer versions:
+
+#To install python
+$sudo apt-get install python
+
+#To install BeautifulSoup4 
+$sudo apt-get install python-bs4
+
+#To install pymongo
+$sudo apt-get install python-pymongo
