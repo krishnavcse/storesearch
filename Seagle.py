@@ -11,8 +11,6 @@ res.raise_for_status()
 # Pull data out from the html
 soup = bs4.BeautifulSoup(res.text)
 
-
-krishna
 # Select all the search links
 linkElems = soup.select('.r a')
 f=open("search.txt","w+")
